@@ -1,4 +1,9 @@
-## Steps for running in local computer
+## Steps for running in local system
+**STEP-1**: Clone the repo to your local system:
+```
+git clone https://github.com/SubhamZap/sentence-similarity.git
+```
+
 **STEP-1**: Install all the dependencies mentioned in requirements.txt file. You can run the following command in your command prompt to install all the dependencies:
 ```python
 pip install -r requirements.txt
@@ -19,4 +24,4 @@ curl --location 'http://127.0.0.1:5000/score' \
     "text2": "nuclear body seeks new tech"
 }'
 ```
-That's it, you can see the web application running at you localhost.
+That's it, you can hit the above curl to get the .
