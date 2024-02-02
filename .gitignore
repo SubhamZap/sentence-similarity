@@ -1,0 +1,5 @@
+#OS
+.DS_store/
+
+#env
+pyenv/
