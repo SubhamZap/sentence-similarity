@@ -8,7 +8,7 @@ yarn-error.log*
 lerna-debug.log*
 
 # OS
-.__pycache__/
+__pycache__/
 .DS_Store/
 
 # Tests
