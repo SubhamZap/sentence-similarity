@@ -5,6 +5,7 @@
 
 # OS
 __pycache__/
+.DS_Store/
 
 # Compiled Java class files
 *.class

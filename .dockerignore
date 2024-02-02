@@ -9,6 +9,7 @@ lerna-debug.log*
 
 # OS
 .__pycache__/
+.DS_Store/
 
 # Tests
 /coverage
