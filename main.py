@@ -79,7 +79,7 @@ def handler(event, context):
 
         return {
             'statusCode': 200,
-            'body': json.dumps({'similarity_score': score})
+            'body': json.dumps({'similarity score': score})
         }
     except Exception as e:
         return {
