@@ -10,7 +10,6 @@ try:
     content = response['Body'].read().decode('utf-8')
 
     embeddings_index = {}
-    # f = open(glove_file_path)
     for line in content.split('\n'):
         if line.strip():
             try:
@@ -27,7 +26,6 @@ try:
             print(f"Invalid line2: {line}")
 except Exception as e:
     print(f"Error fetching S3 object. Error: {e}")
-# f.close()
 glove_words =  set(embeddings_index.keys())
 
 def convert_sen_to_vec(sentence):
